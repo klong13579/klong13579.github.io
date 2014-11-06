@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://klong13579.github.io/sitemap.xml 
