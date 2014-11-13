@@ -4,7 +4,7 @@
   <title><![CDATA[Magnum Peng Blog]]></title>
   <link href="http://klong13579.github.io/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-11-13T23:27:44+08:00</updated>
+  <updated>2014-11-14T00:03:17+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -31,8 +31,13 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<blockquote><p>Last night I lay in bed looking up at the stars in the sky and I thought to myself, where the heck is the ceiling.</p></blockquote>
+<blockquote><p>这个主要是显示名人名言， Stay hungrey, Stay foolish <br/>                                                                                                    &#8212;- Steve jobs</p></blockquote>
 
+
+<p><span class='pullquote-right' data-pullquote='surround it like this'>
+这个是用来做简要说明，醒目。Surround your paragraph with the pull quote tags. Then when you come to
+the text you want to pull, surround it like this and that&rsquo;s all there is to it.
+</span></p>
 
 <p><img src="http://placekitten.com/890/280">
 <img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
@@ -166,7 +171,7 @@ Please don&rsquo;t use any <code>&lt;blink&gt;</code> tags.
 <img src="images/email.png"></p>
 
 <p><a href="http://example.com/">http://example.com/</a><br>
-<a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#107;&#108;&#x6f;&#110;&#x67;&#x31;&#x33;&#x35;&#x37;&#57;&#x40;&#49;&#x32;&#x36;&#x2e;&#x63;&#x6f;&#109;">&#x6b;&#108;&#x6f;&#x6e;&#103;&#49;&#51;&#x35;&#x37;&#57;&#x40;&#x31;&#50;&#x36;&#x2e;&#x63;&#111;&#109;</a></p>
+<a href="&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x6b;&#x6c;&#111;&#110;&#103;&#x31;&#x33;&#53;&#55;&#x39;&#64;&#x31;&#x32;&#54;&#46;&#x63;&#x6f;&#109;">&#x6b;&#108;&#111;&#110;&#x67;&#x31;&#51;&#x35;&#x37;&#57;&#64;&#49;&#x32;&#x36;&#x2e;&#x63;&#111;&#x6d;</a></p>
 
 <p>*fdsfsdaf asterisks*</p>
 

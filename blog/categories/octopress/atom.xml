@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Magnum Peng Blog]]></title>
   <link href="http://klong13579.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-11-13T23:27:44+08:00</updated>
+  <updated>2014-11-14T00:03:17+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -26,7 +26,9 @@ rake install['slash']
 rake generate
 </code></pre>
 
-<p><blockquote><p>Last night I lay in bed looking up at the stars in the sky and I thought to myself, where the heck is the ceiling.</p></blockquote></p>
+<p><blockquote><p>这个主要是显示名人名言， Stay hungrey, Stay foolish<br/>                                                                                                    &mdash;- Steve jobs</p></blockquote></p>
+
+<p>Surround your pullquote like this {&#8221; text to be quoted &#8220;}</p>
 
 <p><img class="<a" src="href="http://placekitten.com/890/280">http://placekitten.com/890/280</a>&#8221;>
 <img class="left <a" src="href="http://placekitten.com/320/250">http://placekitten.com/320/250</a>&#8221; title=&#8221;Place Kitten #2&#8221; >
@@ -151,7 +153,7 @@ Please don&rsquo;t use any <code>&lt;blink&gt;</code> tags.
 <img src="images/email.png"></p>
 
 <p><a href="http://example.com/">http://example.com/</a><br>
-<a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#107;&#x6c;&#x6f;&#x6e;&#x67;&#x31;&#x33;&#x35;&#x37;&#x39;&#x40;&#x31;&#50;&#54;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#108;&#111;&#x6e;&#x67;&#x31;&#x33;&#53;&#x37;&#x39;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#58;&#x6b;&#x6c;&#x6f;&#x6e;&#103;&#x31;&#51;&#x35;&#x37;&#57;&#64;&#x31;&#50;&#54;&#x2e;&#x63;&#x6f;&#x6d;">&#x6b;&#108;&#111;&#x6e;&#103;&#x31;&#51;&#53;&#x37;&#57;&#64;&#x31;&#50;&#x36;&#46;&#x63;&#111;&#x6d;</a></p>
 
 <p>*fdsfsdaf asterisks*</p>
 
