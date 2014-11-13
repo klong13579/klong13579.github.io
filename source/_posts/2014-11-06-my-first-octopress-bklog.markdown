@@ -10,6 +10,7 @@ categories: Octopress
 [id]: http://markdown.tw/#p "markdown"
 你妈的，找啦这么久原来是这样添加文内容的，靠，你妹
 这篇文章展示啦octopress博客中的各种文档形式。
+<!--more-->
 This is a regular paragraph.
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -35,6 +36,7 @@ id sem consectetuer libero luctus adipiscing.
 
 	this is what
 ***
+
 1.	Bird
 2.  McHale
 5.  Parish
@@ -99,8 +101,8 @@ Please don't use any `<blink>` tags.
 
 ![Alt][id]
 [id]: images/email.png  "Optional title attribute"
-{% img  images/bird_32_gray.png %}
-{% img  images/email.png  %}
+{% img images/bird_32_gray.png %}
+{% img images/email.png %}
 
 <http://example.com/><br>
 <klong13579@126.com>
