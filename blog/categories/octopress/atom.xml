@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Magnum Peng Blog]]></title>
   <link href="http://klong13579.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-11-13T22:53:48+08:00</updated>
+  <updated>2014-11-13T23:27:44+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[install-theme]]></title>
-    <link href="http://klong13579.github.io/blog/2014/11/07/install-theme/"/>
+    <link href="http://klong13579.github.io/blog/20141107/install-theme/"/>
     <updated>2014-11-07T17:28:14+08:00</updated>
-    <id>http://klong13579.github.io/blog/2014/11/07/install-theme</id>
+    <id>http://klong13579.github.io/blog/20141107/install-theme</id>
     <content type="html"><![CDATA[<h2>How to install octopress theme</h2>
 
 <pre><code class="html octopress">cd octopress
@@ -25,6 +25,8 @@ git clone git@github.com:tommy351/Octopress-Theme-Slash.git .themes/slash
 rake install['slash']
 rake generate
 </code></pre>
+
+<p><blockquote><p>Last night I lay in bed looking up at the stars in the sky and I thought to myself, where the heck is the ceiling.</p></blockquote></p>
 
 <p><img class="<a" src="href="http://placekitten.com/890/280">http://placekitten.com/890/280</a>&#8221;>
 <img class="left <a" src="href="http://placekitten.com/320/250">http://placekitten.com/320/250</a>&#8221; title=&#8221;Place Kitten #2&#8221; >
@@ -38,13 +40,17 @@ rake generate
   
   <entry>
     <title type="html"><![CDATA[markdown 语法示例]]></title>
-    <link href="http://klong13579.github.io/blog/2014/11/06/my-first-octopress-bklog/"/>
+    <link href="http://klong13579.github.io/blog/20141106/my-first-octopress-bklog/"/>
     <updated>2014-11-06T16:51:43+08:00</updated>
-    <id>http://klong13579.github.io/blog/2014/11/06/my-first-octopress-bklog</id>
+    <id>http://klong13579.github.io/blog/20141106/my-first-octopress-bklog</id>
     <content type="html"><![CDATA[<p>这篇博客是参考<a href="images/email.png" title="Optional title attribute">http://markdown.tw/#p</a><br>
 你妈的，找啦这么久原来是这样添加文内容的，靠，你妹
-这篇文章展示啦octopress博客中的各种文档形式。
-This is a regular paragraph.</p>
+这篇文章展示啦octopress博客中的各种文档形式。</p>
+
+<!--more-->
+
+
+<p>This is a regular paragraph.</p>
 
 <blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -142,10 +148,10 @@ Please don&rsquo;t use any <code>&lt;blink&gt;</code> tags.
 
 <p><img src="images/email.png" title="Optional title attribute" alt="Alt" />
 <img src="images/bird_32_gray.png">
-<img src="images/email.png" title="" ></p>
+<img src="images/email.png"></p>
 
 <p><a href="http://example.com/">http://example.com/</a><br>
-<a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#108;&#x6f;&#x6e;&#x67;&#49;&#x33;&#x35;&#55;&#x39;&#64;&#49;&#x32;&#54;&#46;&#x63;&#x6f;&#x6d;">&#x6b;&#x6c;&#x6f;&#x6e;&#x67;&#49;&#x33;&#x35;&#x37;&#57;&#x40;&#x31;&#x32;&#x36;&#x2e;&#x63;&#111;&#109;</a></p>
+<a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#107;&#x6c;&#x6f;&#x6e;&#x67;&#x31;&#x33;&#x35;&#x37;&#x39;&#x40;&#x31;&#50;&#54;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#108;&#111;&#x6e;&#x67;&#x31;&#x33;&#53;&#x37;&#x39;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#111;&#x6d;</a></p>
 
 <p>*fdsfsdaf asterisks*</p>
 
