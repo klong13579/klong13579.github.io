@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Magnum Peng Blog]]></title>
   <link href="http://klong13579.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-11-14T00:03:17+08:00</updated>
+  <updated>2014-11-14T15:07:02+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -18,25 +18,27 @@
     <link href="http://klong13579.github.io/blog/20141107/install-theme/"/>
     <updated>2014-11-07T17:28:14+08:00</updated>
     <id>http://klong13579.github.io/blog/20141107/install-theme</id>
-    <content type="html"><![CDATA[<h2>How to install octopress theme</h2>
+    <content type="html"><![CDATA[<h2 id="how-to-install-octopress-theme">How to install octopress theme</h2>
 
-<pre><code class="html octopress">cd octopress
+<p><code>html octopress
+cd octopress
 git clone git@github.com:tommy351/Octopress-Theme-Slash.git .themes/slash
 rake install['slash']
 rake generate
-</code></pre>
-
-<p><blockquote><p>这个主要是显示名人名言， Stay hungrey, Stay foolish<br/>                                                                                                    &mdash;- Steve jobs</p></blockquote></p>
+</code>
+各种主题：<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a>
+<blockquote><p>这个主要是显示名人名言， Stay hungrey, Stay foolish <br/>																									—- Steve jobs</p></blockquote></p>
 
 <p>Surround your pullquote like this {&#8221; text to be quoted &#8220;}</p>
 
-<p><img class="<a" src="href="http://placekitten.com/890/280">http://placekitten.com/890/280</a>&#8221;>
-<img class="left <a" src="href="http://placekitten.com/320/250">http://placekitten.com/320/250</a>&#8221; title=&#8221;Place Kitten #2&#8221; >
-<img class="right <a" src="href="http://placekitten.com/300/500">http://placekitten.com/300/500</a>&#8221; width=&#8221;150&#8221; height=&#8221;250&#8221; title=&#8221;Place Kitten #3&#8221; >
-<img class="right <a" src="href="http://placekitten.com/300/500">http://placekitten.com/300/500</a>&#8221; width=&#8221;150&#8221; height=&#8221;250&#8221; title=&#8221;&lsquo;Place Kitten #4&rsquo; &lsquo;An image of a very cute kitten&rsquo;&#8221; ></p>
+<p><img class="left" src="https://ununsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&amp;fm=jpg&amp;s=4f35827a6dc766d393fc51fce493d85d" width="400" height="250">
+<img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
+<img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
+<img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="‘Place Kitten #4’ ‘An image of a very cute kitten’" ></p>
 
-<p><img src="images/email.png">
-<img src="images/touxiang.jpg"></p>
+<p><img src="http://klong13579.github.io/images/email.png" />
+<img src="/images/email.png" width="400" height="250">
+<img src="/images/touxiang.jpg"></p>
 ]]></content>
   </entry>
   
@@ -45,73 +47,89 @@ rake generate
     <link href="http://klong13579.github.io/blog/20141106/my-first-octopress-bklog/"/>
     <updated>2014-11-06T16:51:43+08:00</updated>
     <id>http://klong13579.github.io/blog/20141106/my-first-octopress-bklog</id>
-    <content type="html"><![CDATA[<p>这篇博客是参考<a href="images/email.png" title="Optional title attribute">http://markdown.tw/#p</a><br>
+    <content type="html"><![CDATA[<p>这篇博客是参考[http://markdown.tw/#p][id]<br />
+[id]: http://markdown.tw/#p “markdown”
 你妈的，找啦这么久原来是这样添加文内容的，靠，你妹
-这篇文章展示啦octopress博客中的各种文档形式。</p>
-
+这篇文章展示啦octopress博客中的各种文档形式。
 <!--more-->
-
-
-<p>This is a regular paragraph.</p>
-
-<blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+This is a regular paragraph.
+&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
 
-<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+<blockquote>
+  <p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
 
-<p>This is the first level of quoting.</p>
+<blockquote>
+  <p>This is the first level of quoting.</p>
 
-<blockquote><p>This is nested blockquote.</p></blockquote>
+  <blockquote>
+    <p>This is nested blockquote.</p>
+  </blockquote>
 
-<p>Back to the first level.</p>
+  <p>Back to the first level.</p>
+</blockquote>
 
-<h2>This is a header.</h2>
+<blockquote>
+  <h2 id="this-is-a-header">This is a header.</h2>
 
-<ol>
-<li> This is the first list item.</li>
-<li> This is the second list item.</li>
-</ol>
+  <ol>
+    <li>This is the first list item.</li>
+    <li>This is the second list item.</li>
+  </ol>
 
+  <p>Here’s some example code:</p>
 
-<p>Here&rsquo;s some example code:</p>
+  <pre><code>	return shell_exec("echo $input | $markdown_script");fdfdsfdsjafdsjlfjldskjafljdslajfljdsljfldsjlafjlkdsjafkljdsklfjlkdsjflksjdlakfjdsklfjsdalkj
+</code></pre>
+</blockquote>
 
-<pre><code>  return shell_exec("echo $input | $markdown_script");fdfdsfdsjafdsjlfjldskjafljdslajfljdsljfldsjlafjlkdsjafkljdsklfjlkdsjflksjdlakfjdsklfjsdalkj
-</code></pre></blockquote>
-
-<pre><code>this is what
+<pre><code>this is what ***
 </code></pre>
 
-<hr />
-
 <ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish
+  <li>Bird</li>
+  <li>McHale</li>
+  <li>Parish
 1   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li><p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-<li><p>A list item with a blockquote:</p>
+viverra nec, fringilla in, laoreet vitae, risus.
+    <ul>
+      <li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+    </ul>
+  </li>
+</ol>
 
-<blockquote><p>This is a blockquote
-inside a list item.</p></blockquote></li>
-<li><p>This is a list item with two paragraphs. Lorem ipsum dolor
+<ul>
+  <li>
+    <p>A list item with a blockquote:</p>
+
+    <blockquote>
+      <p>This is a blockquote
+inside a list item.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>This is a list item with two paragraphs. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit. Aliquam hendrerit
 mi posuere lectus.</p>
 
-<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
 vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.</p></li>
-<li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
+sit amet velit.</p>
+  </li>
+  <li>
+    <p>Suspendisse id sem consectetuer libero luctus adipiscing.
+***
+1986. What a great season.</p>
+  </li>
 </ol>
-
-
-<hr />
-
-<p>1986. What a great season.</p>
 
 <p>Here is an example of AppleScript:</p>
 
@@ -123,9 +141,7 @@ end tell
 <div class="footer">
         &copy; 2004 Foo Corporation
 </div>
-
-
-<p>需要换行请用&#8221;&lt;br>&ldquo;<br>
+<p>需要换行请用”&lt;br&gt;“<br /> 
 I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
 <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
 
@@ -145,27 +161,18 @@ unfriggingbelievable</p>
 A single backtick in a code span: <code>`</code></p>
 
 <p>A backtick-delimited string in a code span: <code>`foo`</code>
-Please don&rsquo;t use any <code>&lt;blink&gt;</code> tags.
+Please don’t use any <code>&lt;blink&gt;</code> tags.
 <code>&amp;#8212;</code> is the decimal-encoded equivalent of <code>&amp;mdash;</code>.</p>
 
-<p><img src="images/email.png" title="Optional title attribute" alt="Alt" />
+<p>![Alt][id]
+[id]: images/email.png  “Optional title attribute”
 <img src="images/bird_32_gray.png">
 <img src="images/email.png"></p>
 
-<p><a href="http://example.com/">http://example.com/</a><br>
-<a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#58;&#x6b;&#x6c;&#x6f;&#x6e;&#103;&#x31;&#51;&#x35;&#x37;&#57;&#64;&#x31;&#50;&#54;&#x2e;&#x63;&#x6f;&#x6d;">&#x6b;&#108;&#111;&#x6e;&#103;&#x31;&#51;&#53;&#x37;&#57;&#64;&#x31;&#50;&#x36;&#46;&#x63;&#111;&#x6d;</a></p>
+<p><a href="http://example.com/">http://example.com/</a><br />
+<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#108;&#111;&#110;&#103;&#049;&#051;&#053;&#055;&#057;&#064;&#049;&#050;&#054;&#046;&#099;&#111;&#109;">&#107;&#108;&#111;&#110;&#103;&#049;&#051;&#053;&#055;&#057;&#064;&#049;&#050;&#054;&#046;&#099;&#111;&#109;</a></p>
 
 <p>*fdsfsdaf asterisks*</p>
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-        <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
 
 <p>Test Code in blog
 <code>python helloworld
