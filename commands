@@ -1,0 +1,3 @@
+rake preview   // 预览
+rake generate  //生成博客
+rake deploy    // 部署博客，上传到github

@@ -3,15 +3,11 @@
 # ----------------------- #
 
 url: http://klong13579.github.io
-title: Magnum Peng Blog
-subtitle: Magnum's life and programm recording.
+title: I will always be here with you
+subtitle: past, present and future
 author: Magnum Peng
 simple_search: https://www.google.com/search
-description: 各位童鞋们：
-
-    我们的作业《设计比较研究》，提交时间即将到期。截止提交时间为：2014年11月10日 22:00。<www.baidu.com>
-
-    请还没有提交作业的童鞋抓紧时间哦。
+description: 孙静同学，我们在认识7年的时候结婚，总想去给你一些惊喜。我写啦7篇文章，每篇文章回忆我们每一年中的一些记忆。不纪念过去，不展望未来，看看过去7年的我们，挺浪漫的。
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
