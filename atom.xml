@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Magnum Peng Blog]]></title>
+  <title><![CDATA[I will always be here with you]]></title>
   <link href="http://klong13579.github.io/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-11-14T15:07:02+08:00</updated>
+  <updated>2014-12-01T22:08:33+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -27,7 +27,7 @@
     <link href="http://klong13579.github.io/blog/20141114/test/"/>
     <updated>2014-11-14T09:32:16+08:00</updated>
     <id>http://klong13579.github.io/blog/20141114/test</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>这个首页的背景图片一定是要给我美好感觉的，充满未来，希望和幸福</p>
 ]]></content>
   </entry>
   
