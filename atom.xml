@@ -4,7 +4,7 @@
   <title><![CDATA[I will always be here with you]]></title>
   <link href="http://klong13579.github.io/atom.xml" rel="self"/>
   <link href="http://klong13579.github.io/"/>
-  <updated>2014-12-11T20:10:21+08:00</updated>
+  <updated>2014-12-11T21:22:18+08:00</updated>
   <id>http://klong13579.github.io/</id>
   <author>
     <name><![CDATA[Magnum Peng]]></name>
@@ -18,7 +18,10 @@
     <link href="http://klong13579.github.io/blog/20141114/test-new-theme/"/>
     <updated>2014-11-14T11:22:16+08:00</updated>
     <id>http://klong13579.github.io/blog/20141114/test-new-theme</id>
-    <content type="html"><![CDATA[<video width="640" height="320" preload="none" controls="" poster="http://s3.imathis.com/video/zero-to-fancy-buttons.png"><source src="http://s3.imathis.com/video/zero-to-fancy-buttons.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" /></video>
+    <content type="html"><![CDATA[<p>Add Youku Video</p>
+
+<iframe style="margin:0 auto; display: block" height="480" width="640" src="http://player.youku.com/embed/XNzM1MTM5ODEy?color=white&amp;theme=light"></iframe>
+
 ]]></content>
   </entry>
   
